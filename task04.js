@@ -18,7 +18,7 @@ for (let i = 0; i < x.length; i++) {
 const slope = numerator / denominator;
 const intercept = yAvrg - slope * xAvrg;
 
-// Log the regression coefficients (slope and intercept)
+// Display the regression coefficients (slope and intercept)
 console.log("Slope (m):", slope);
 console.log("Intercept (b):", intercept);
 
